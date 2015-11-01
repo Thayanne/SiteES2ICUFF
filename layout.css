@@ -30,23 +30,8 @@ body{
 }
 
 
-#menu{
-	width:80%;
-	height:50px;
-	background-color:#0bdb51;
-	text-align:center;
-	margin: 0 auto;
-}
-
 ul {
 	list-style-type: none;
-}
-
-li {
-	display: inline-block;
-	margin-right: 30px;
-	font-family:Arial;
-	font-size: 24px;
 }
 
 li a{
@@ -58,12 +43,37 @@ li a:hover{
 	color:#000000;
 }
 
-#menu ul li {
-    float: none;
-    margin: 0;
-    padding: 0;
-    display: block;
+#menu{
+	width:80%;
+	height:50px;
+	background-color:#0bdb51;
+	text-align:center;
+	margin: 0 auto;
 }
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color:#0bdb51;
+}
+
+.option{
+	display: inline-block;
+	position: relative;
+  	margin-right: 30px;
+	font-family:Arial;
+	font-size: 24px;
+}
+
+.option:hover .submenu {
+  display: block;
+}
+
+.suboption{
+	font-family:Arial;
+	font-size: 18px;
+}
+
 
 #conteudo{
 	width:916px;
@@ -83,21 +93,6 @@ li a:hover{
 	font-size: 9px;
 	color: #000000;
 	text-align:center;
-}
-
-.menu-letter{
-	margin-left: 30px;
-	display:inline-block;
-}
-.menu-letter a{
-	font-family:Arial;
-	font-size: 24px;
-	color:#FFFFFF;
-	text-decoration: none;
-}
-
-.menu-letter a:hover{
-	color:#000000;
 }
 
 .link a{
