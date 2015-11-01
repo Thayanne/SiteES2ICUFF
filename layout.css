@@ -14,6 +14,18 @@ body{
 	margin:0 auto;
 	padding-top:30px;
 	background-color:#0b6951;
+	position: relative;
+}
+
+.top-logo {
+	position: absolute;
+}
+
+.top-tittle {
+	text-align: center;
+	font-family:Arial;
+	font-size: 40px;
+	color: #FFFFFF;
 }
 
 #menu{
@@ -42,12 +54,6 @@ body{
 	font-size: 9px;
 	color: #000000;
 	text-align:center;
-}
-
-.top{
-	font-family:Arial;
-	font-size: 40px;
-	color: #FFFFFF;
 }
 
 .menu-letter{
